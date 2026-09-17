@@ -1,0 +1,27 @@
+# Data downloaded or generated locally
+data/raw/
+data/processed/
+*.pkl
+*.joblib
+
+# Notebook and Python artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated figures
+outputs/
+figures/
